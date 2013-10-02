@@ -277,6 +277,10 @@
   @extend #block-views-object-visitors-by-month-block;
 }
 
+ #block-menu-block-1, #block-menu-block-2 {
+  @extend #block-views-object-visitors-by-month-block;  
+ }
+
 /* Accordion Rotator */
 
 #block-accordion-rotator-accordion-rotator {

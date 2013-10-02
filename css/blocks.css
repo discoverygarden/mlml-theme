@@ -256,7 +256,7 @@
 
 /* @Google Analytics Views */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003235}}
-#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, #block-views-frontpage-solr-boxes-block-2 {
+#block-views-object-visitors-by-month-block, #block-views-top-site-searches-block, #block-views-top-facet-searches-block, .block-google-analytics-reports, #block-views-frontpage-solr-boxes-block, #block-views-frontpage-solr-boxes-block-2, #block-menu-block-1, #block-menu-block-2 {
   float: left;
   padding: 15px;
   margin: 0 1.1% 0 0;
@@ -297,13 +297,13 @@
 }
 
 /* Accordion Rotator */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003287}}
 #block-accordion-rotator-accordion-rotator h2 {
   font-size: 120%;
   padding: 0 15px;
   font-family: "News Cycle" !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003292}}
 #block-accordion-rotator-accordion-rotator p {
   font-size: 80%;
   font-weight: normal;
@@ -313,131 +313,131 @@
 }
 
 /* Blockify */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003306}}
 #block-blockify-blockify-logo img {
   width: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003311}}
 #block-blog-recent {
   /* "Recent blog posts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003314}}
 #block-book-navigation {
   /* "Book navigation" block for the current book's table of contents */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003317}}
 #block-comment-recent {
   /* "Recent comments" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003320}}
 #block-forum-active {
   /* "Active forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003323}}
 #block-forum-new {
   /* "New forum topics" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003326}}
 #block-locale-language {
   /* Language switcher block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003329}}
 #block-menu-menu-NAME {
   /* Custom menu block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003332}}
 #block-node-recent {
   /* "Recent content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003335}}
 #block-node-syndicate {
   /* "Syndicate" block for primary RSS feed; see also page.css's .feed-icon */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003338}}
 #block-poll-recent {
   /* "Most recent poll" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003341}}
 #block-profile-author-information {
   /* "Author information" block for the profile of the page's author */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003344}}
 #block-search-form {
   /* "Search form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003347}}
 #block-shortcut-shortcuts {
   /* "Shortcuts" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003350}}
 #block-statistics-popular {
   /* "Popular content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003353}}
 #block-system-main-menu {
   /* "Main menu" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003356}}
 #block-system-management {
   /* "Management" block for Drupal management menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003359}}
 #block-system-navigation {
   /* "Navigation" block for Drupal navigation menu */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003360}}
 #block-system-navigation ul {
   padding-left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003365}}
 #block-system-user-menu {
   /* "User menu" block for Drupal user menu */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003368}}
 #block-system-help {
   /* "System help" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003371}}
 #block-system-main {
   /* "Main page content" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003374}}
 #block-system-powered-by {
   /* "Powered by Drupal" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003377}}
 #block-user-login {
   /* "User login form" block */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003380}}
 #block-user-new {
   /* "Who's new" block for a list of the newest users */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003383}}
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
@@ -445,11 +445,11 @@
 /*
  * Social Media block
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003390}}
 #block-widgets-s-socialmedia-share-default {
   float: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Volumes\/MLML\/ir7\/sass\/blocks\.scss}line{font-family:\00003393}}
 #block-widgets-s-socialmedia-share-default .widgets-element img {
   width: 85%;
 }
