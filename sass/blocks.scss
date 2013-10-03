@@ -201,6 +201,17 @@
     @include background-image(linear-gradient(top,  #343334 0%,#5a5b5d 100%));
 }
 
+.front .block-menu-block {
+  ul {
+    padding-left: 3px;
+
+    li {
+      list-style: none;
+      padding-bottom: 0.8em;
+    }
+  }
+}
+
 
 /**
  * @Views Blocks
