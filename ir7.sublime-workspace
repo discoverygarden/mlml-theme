@@ -47,7 +47,7 @@
 			"file": "sass/blocks.scss",
 			"settings":
 			{
-				"buffer_size": 7740,
+				"buffer_size": 7873,
 				"line_ending": "Unix"
 			}
 		},
@@ -307,15 +307,15 @@
 					"file": "sass/blocks.scss",
 					"settings":
 					{
-						"buffer_size": 7740,
+						"buffer_size": 7873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5476,
-								5476
+								3999,
+								3999
 							]
 						],
 						"settings":
@@ -325,7 +325,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4142.0,
+						"translation.y": 1700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -342,8 +342,8 @@
 						"selection":
 						[
 							[
-								516,
-								516
+								1945,
+								1945
 							]
 						],
 						"settings":
@@ -353,7 +353,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1076.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
