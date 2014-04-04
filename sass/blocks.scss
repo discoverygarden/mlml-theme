@@ -22,7 +22,7 @@
   }
 
   h2.block-title { /* Block title */
-    border-bottom: 2px solid #419845;
+    border-bottom: 2px solid #3F93EC;
   }
 }
 
@@ -84,6 +84,8 @@
 }
 
 #block-views-frontpage-solr-boxes-block-1 {
+  font-size: 90%;
+  min-height: auto !important;
   .views-row {
     float: left;
     max-width: 47%;
@@ -104,6 +106,7 @@
     width: 115px;
     height: 115px;
     padding-right: 10px;
+    padding-bottom: 40px;
   }
   a {
     color: #3D8396;
@@ -248,7 +251,7 @@
   padding: 15px;
   margin: 0 1.1% 0 0;
   background: #fff;
-  min-height: 520px;
+  min-height: 573px;
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
     -webkit-box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
 }
@@ -271,11 +274,19 @@
 .block-google-analytics-reports {
   @extend #block-views-object-visitors-by-month-block;
   margin-right: 0 !important;
+  line-height: 1.5em !important;
   h3 {
     font-size: 93%;
     color: #424143;
   }
-  ol, p {
+  ol {
+    font-size: 90%;
+     li {
+       margin-bottom: 0.5em; 
+     }
+  }
+  p {
+    margin-bottom: 0;
     font-size: 90%;
   }
 }
