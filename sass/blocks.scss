@@ -417,3 +417,18 @@
     }
   }
 }
+
+#block-islandora-compound-object-compound-navigation .islandora-compound-caption {
+  font-weight: bold;
+  white-space: normal;
+}
+
+#block-islandora-compound-object-compound-navigation .islandora-compound-title {
+  font-weight: normal;
+}
+
+#block-islandora-compound-object-compound-navigation .islandora-compound-thumbs img {
+  max-width: 87%;
+  margin: 1em 0;
+  padding:1px;
+}
