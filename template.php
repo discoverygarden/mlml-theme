@@ -237,3 +237,50 @@ function ir7_preprocess_html(&$variables) {
   drupal_add_css('http://openfontlibrary.org/face/open-baskerville', array('group' => CSS_THEME, 'preprocess' => FALSE));
   drupal_add_css('http://openfontlibrary.org/face/news-cycle', array('group' => CSS_THEME, 'preprocess' => FALSE));
 }
+
+/**
+ * Prepares variables for islandora_solr_metadata_display templates.
+ *
+ * Default template: islandora-solr-metadata-display.tpl.php
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - islandora_object: The AbstractObject for which we are generating a
+ *     metadata display.
+ *   - print: A boolean indicating to disable some functionality, to facilitate
+ *     printing. When TRUE, avoids adding the "collapsible" and "collapsed"
+ *     classes to fieldsets.
+ */
+function mlml_theme_preprocess_islandora_solr_metadata_display(array &$variables) {
+  $object = $variables['islandora_object'];
+  $variables['islanda_usage_stats'] = array();
+  if (module_exists('islandora_usage_stats')) {
+    module_load_include('inc', 'mlmlora', 'includes/utilities');
+    if (in_array('islandora:sp_document', $object->models)) {
+      $variables['islanda_usage_stats'] = mlmlora_get_stats_details($object, array(
+        "PDF",
+        "OBJ"
+      ));
+    }
+    else {
+      $variables['islanda_usage_stats'] = mlmlora_get_stats_details($object, array("OBJ"));
+    }
+  }
+}
+/**
+ * Prepares variables for islandora_book_page templates.
+ *
+ * Default template: islandora-book-page.tpl.php.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - object: An AbstractObject for which to generate the display.
+ */
+function mlml_theme_preprocess_islandora_book_page(array &$variables) {
+  $object = $variables['object'];
+  $variables['islanda_usage_stats'] = array();
+  if (module_exists('islandora_usage_stats')) {
+    module_load_include('inc', 'mlmlora', 'includes/utilities');
+    $variables['islanda_usage_stats'] = mlmlora_get_stats_details($object, array("OBJ"));
+  }
+}
