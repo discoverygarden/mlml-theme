@@ -267,20 +267,4 @@ function mlml_theme_preprocess_islandora_solr_metadata_display(array &$variables
     }
   }
 }
-/**
- * Prepares variables for islandora_book_page templates.
- *
- * Default template: islandora-book-page.tpl.php.
- *
- * @param array $variables
- *   An associative array containing:
- *   - object: An AbstractObject for which to generate the display.
- */
-function mlml_theme_preprocess_islandora_book_page(array &$variables) {
-  $object = $variables['object'];
-  $variables['islanda_usage_stats'] = array();
-  if (module_exists('islandora_usage_stats')) {
-    module_load_include('inc', 'mlmlora', 'includes/utilities');
-    $variables['islanda_usage_stats'] = mlmlora_get_stats_details($object, array("OBJ"));
-  }
-}
+
