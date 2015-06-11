@@ -268,3 +268,20 @@ function mlml_theme_preprocess_islandora_solr_metadata_display(array &$variables
   }
 }
 
+/**
+ * Prepares variables for islandora_pdf template.
+ *
+ * Default template: islandora-pdf.tpl.php.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - object: An AbstractObject for which to generate the display.
+ */
+function mlml_theme_preprocess_islandora_pdf(array &$variables) {
+  $object = $variables['islandora_object'];
+  $variables['islanda_usage_stats'] = array();
+  if (module_exists('islandora_usage_stats')) {
+    module_load_include('inc', 'metrodora', 'includes/utilities');
+    $variables['islanda_usage_stats'] = metrodora_get_stats_details($object, array("OBJ"));
+  }
+}
