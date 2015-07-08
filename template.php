@@ -241,8 +241,9 @@ function ir7_preprocess_page(&$variables, $hook) {
       $object = menu_get_object('islandora_object', 2);
       if (isset($object)) {
         module_load_include('inc', 'mlmlora', 'includes/utilities');
-        $stats = drupal_render(mlmlora_get_pdf_stats($object));
-        $variables['object_usage_stats'] = $stats;
+        $raw_stats = mlmlora_get_pdf_stats($object);
+        $rendered_stats = drupal_render($raw_stats);
+        $variables['object_usage_stats'] = $rendered_stats;
       }
     }
   }
