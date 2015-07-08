@@ -408,7 +408,7 @@ $zen-auto-include-item-base: false;
 /*
  * The Title and object stats.
  */
-@media all and (max-width: 1600px) {
+@media all and (min-width: 640px) {
   $zen-column-count: 4;
   $zen-gutter-width: 20px;
   .page-title-wrapper{
