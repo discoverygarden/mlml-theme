@@ -225,6 +225,24 @@ function ir7_preprocess_block(&$variables, $hook) {
 }
 // */
 
+/**
+ * Implements hook_preprocess_page().
+ */
+function ir7_preprocess_page(&$variables, $hook) {
+  $path = current_path();
+  $path_array = explode("/", $path);
+  if (count($path_array) >= 2) {
+    if ($path_array[0] == 'islandora' && $path_array[1] == 'object'){
+      module_load_include('inc', 'mlmlora', 'includes/utilities');
+      $object = menu_get_object('islandora_object', 2);
+      if (isset($object)) {
+        $stats = drupal_render(mlmlora_get_pdf_stats($object));
+        $variables['object_usage_stats'] = $stats;
+      }
+    }
+  }
+}
+
 function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
     '#markup' => l(t("Advanced Search"), "node/6", array('attributes' => array('class' => array('adv_search')))),
