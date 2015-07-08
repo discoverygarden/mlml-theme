@@ -238,9 +238,9 @@ function ir7_preprocess_page(&$variables, $hook) {
   $path_array = explode("/", $path);
   if (count($path_array) >= 2) {
     if ($path_array[0] == 'islandora' && $path_array[1] == 'object'){
-      module_load_include('inc', 'mlmlora', 'includes/utilities');
       $object = menu_get_object('islandora_object', 2);
       if (isset($object)) {
+        module_load_include('inc', 'mlmlora', 'includes/utilities');
         $stats = drupal_render(mlmlora_get_pdf_stats($object));
         $variables['object_usage_stats'] = $stats;
       }
