@@ -225,6 +225,30 @@ function ir7_preprocess_block(&$variables, $hook) {
 }
 // */
 
+/**
+ * Implements hook_preprocess_page().
+ *
+ * Adds usage stats inline with page title.
+ */
+function ir7_preprocess_page(&$variables, $hook) {
+  // Because we are adding content to the page,
+  // not just an objects view, we must preprocess
+  // our required variables here.
+  $path = current_path();
+  $path_array = explode("/", $path);
+  if (count($path_array) >= 2) {
+    if ($path_array[0] == 'islandora' && $path_array[1] == 'object'){
+      $object = menu_get_object('islandora_object', 2);
+      if (isset($object)) {
+        module_load_include('inc', 'mlmlora', 'includes/utilities');
+        $raw_stats = mlmlora_get_pdf_stats($object);
+        $rendered_stats = drupal_render($raw_stats);
+        $variables['object_usage_stats'] = $rendered_stats;
+      }
+    }
+  }
+}
+
 function ir7_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
     '#markup' => l(t("Advanced Search"), "node/6", array('attributes' => array('class' => array('adv_search')))),
