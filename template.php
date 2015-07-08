@@ -227,8 +227,13 @@ function ir7_preprocess_block(&$variables, $hook) {
 
 /**
  * Implements hook_preprocess_page().
+ *
+ * Adds usage stats inline with page title.
  */
 function ir7_preprocess_page(&$variables, $hook) {
+  // Because we are adding content to the page,
+  // not just an objects view, we must preprocess
+  // our required variables here.
   $path = current_path();
   $path_array = explode("/", $path);
   if (count($path_array) >= 2) {
