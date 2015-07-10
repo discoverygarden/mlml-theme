@@ -118,16 +118,16 @@
       <?php print render($page['highlighted']); ?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      <?php if ($object_usage_stats): ?>
+      <?php if (isset($object_usage_stats)): ?>
       <div class="page-title-wrapper">
       <?php endif; ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
-        <?php if ($object_usage_stats): ?>
+        <?php if (isset($object_usage_stats)): ?>
         <div class="object-usage"><?php print $object_usage_stats; ?></div>
         <?php endif; ?>
       <?php endif; ?>
-      <?php if ($object_usage_stats): ?>
+      <?php if (isset($object_usage_stats)): ?>
       </div>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
