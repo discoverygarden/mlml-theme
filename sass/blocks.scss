@@ -252,12 +252,16 @@
   }
 }
 
+.submit-collection-anon{
+  clear: right;
+  margin-bottom: 15px;
+}
 /* @Google Analytics Views */
 
 #block-views-object-visitors-by-month-block {
   float: left;
   padding: 15px;
-  margin: 0 1.1% 0 0;
+  margin: 0 .8% 0 0;
   background: #fff;
   min-height: 573px;
   box-shadow: 0 0 5px 1px rgba(38, 37, 38, 0.3);
