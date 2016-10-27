@@ -76,7 +76,7 @@
   <header id="header" role="banner">
 
     <?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+      <a href="https://www.mlml.calstate.edu" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
     <?php endif; ?>
     <?php if ($site_name || $site_slogan): ?>
       <hgroup id="name-and-slogan">
